@@ -1,50 +1,7 @@
 {
  "fecha": "2026-08-24",
- "generado_utc": "2026-08-24 21:44",
- "candidatas": [
-  {
-   "ticker": "HPQ",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 28.58,
-   "ret_6m_pct": 61.5,
-   "dist_max52_pct": -8.7,
-   "vol_vs_prom": 1.0,
-   "dia_pct": -3.8,
-   "nombre": "HP Inc.",
-   "sector": "Technology",
-   "cap_bn": 26.1,
-   "pe": 10.585185,
-   "pe_forward": 9.535948,
-   "eps": 2.7,
-   "crec_ventas_pct": 9.0,
-   "margen_pct": 4.4,
-   "filtro": "OK",
-   "objetivo_prom": 23.4,
-   "upside_pct": -18.1
-  },
-  {
-   "ticker": "VRSN",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 290.79,
-   "ret_6m_pct": 37.0,
-   "dist_max52_pct": -5.9,
-   "vol_vs_prom": 0.8,
-   "dia_pct": 3.2,
-   "nombre": "VeriSign, Inc.",
-   "sector": "Technology",
-   "cap_bn": 26.3,
-   "pe": 31.572748,
-   "pe_forward": 26.483803,
-   "eps": 9.21,
-   "crec_ventas_pct": 6.0,
-   "margen_pct": 49.8,
-   "filtro": "OK",
-   "objetivo_prom": 318.0,
-   "upside_pct": 9.4
-  }
- ],
+ "generado_utc": "2026-08-24 22:47",
+ "candidatas": [],
  "descartadas_por_calidad": [
   {
    "ticker": "SNOW",
@@ -90,57 +47,6 @@
   }
  ],
  "mercado": null,
- "top10_momentum": [
-  {
-   "ticker": "DELL",
-   "ret_6m_pct": 263.4,
-   "precio": 433.19
-  },
-  {
-   "ticker": "MRVL",
-   "ret_6m_pct": 192.7,
-   "precio": 229.29
-  },
-  {
-   "ticker": "MRNA",
-   "ret_6m_pct": 174.9,
-   "precio": 138.89
-  },
-  {
-   "ticker": "HPE",
-   "ret_6m_pct": 161.3,
-   "precio": 52.43
-  },
-  {
-   "ticker": "PANW",
-   "ret_6m_pct": 147.7,
-   "precio": 350.9
-  },
-  {
-   "ticker": "SNDK",
-   "ret_6m_pct": 133.8,
-   "precio": 1493.12
-  },
-  {
-   "ticker": "HUM",
-   "ret_6m_pct": 123.0,
-   "precio": 386.61
-  },
-  {
-   "ticker": "MU",
-   "ret_6m_pct": 117.9,
-   "precio": 910.43
-  },
-  {
-   "ticker": "CRWD",
-   "ret_6m_pct": 117.8,
-   "precio": 190.68
-  },
-  {
-   "ticker": "DDOG",
-   "ret_6m_pct": 116.2,
-   "precio": 225.77
-  }
- ],
+ "top10_momentum": [],
  "spx_cierre": 7652.86
 }
