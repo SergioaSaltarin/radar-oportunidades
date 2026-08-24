@@ -1,95 +1,146 @@
 {
- "fecha": "2026-08-22",
- "generado_utc": "2026-08-22 18:32",
+ "fecha": "2026-08-24",
+ "generado_utc": "2026-08-24 21:44",
  "candidatas": [
   {
-   "ticker": "NTAP",
+   "ticker": "HPQ",
    "tipo": "A",
    "regla": "Lider en retroceso",
-   "precio": 192.27,
-   "ret_6m_pct": 92.8,
-   "dist_max52_pct": -7.2,
-   "vol_vs_prom": 0.6,
-   "dia_pct": -0.3,
-   "nombre": "NetApp, Inc.",
+   "precio": 28.58,
+   "ret_6m_pct": 61.5,
+   "dist_max52_pct": -8.7,
+   "vol_vs_prom": 1.0,
+   "dia_pct": -3.8,
+   "nombre": "HP Inc.",
    "sector": "Technology",
-   "cap_bn": 37.7,
-   "pe": 30.326498,
-   "pe_forward": 19.175226,
-   "eps": 6.34,
-   "crec_ventas_pct": 12.5,
-   "margen_pct": 18.4,
+   "cap_bn": 26.1,
+   "pe": 10.585185,
+   "pe_forward": 9.535948,
+   "eps": 2.7,
+   "crec_ventas_pct": 9.0,
+   "margen_pct": 4.4,
    "filtro": "OK",
-   "objetivo_prom": 183.8,
-   "upside_pct": -4.4
+   "objetivo_prom": 23.4,
+   "upside_pct": -18.1
   },
   {
-   "ticker": "A",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 159.0,
-   "ret_6m_pct": 28.6,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 1.6,
-   "dia_pct": 1.7,
-   "nombre": "Agilent Technologies, Inc.",
-   "sector": "Healthcare",
-   "cap_bn": 44.9,
-   "pe": 31.927711,
-   "pe_forward": 24.058466,
-   "eps": 4.98,
-   "crec_ventas_pct": 10.0,
-   "margen_pct": 19.6,
+   "ticker": "VRSN",
+   "tipo": "A",
+   "regla": "Lider en retroceso",
+   "precio": 290.79,
+   "ret_6m_pct": 37.0,
+   "dist_max52_pct": -5.9,
+   "vol_vs_prom": 0.8,
+   "dia_pct": 3.2,
+   "nombre": "VeriSign, Inc.",
+   "sector": "Technology",
+   "cap_bn": 26.3,
+   "pe": 31.572748,
+   "pe_forward": 26.483803,
+   "eps": 9.21,
+   "crec_ventas_pct": 6.0,
+   "margen_pct": 49.8,
    "filtro": "OK",
-   "objetivo_prom": 160.9,
-   "upside_pct": 1.2
+   "objetivo_prom": 318.0,
+   "upside_pct": 9.4
   }
  ],
  "descartadas_por_calidad": [
   {
-   "ticker": "BBY",
+   "ticker": "SNOW",
    "tipo": "A",
    "regla": "Lider en retroceso",
-   "precio": 85.89,
-   "ret_6m_pct": 40.9,
-   "dist_max52_pct": -4.7,
-   "vol_vs_prom": 0.8,
-   "dia_pct": 0.2,
-   "nombre": "Best Buy Co., Inc.",
-   "sector": "Consumer Cyclical",
-   "cap_bn": null,
-   "pe": 15.905555,
-   "pe_forward": 12.129677,
-   "eps": 5.4,
-   "crec_ventas_pct": 1.9,
-   "margen_pct": 2.7,
-   "filtro": "cap $0.0bn < 10bn",
-   "objetivo_prom": 82.8,
-   "upside_pct": -3.7
+   "precio": 322.78,
+   "ret_6m_pct": 100.4,
+   "dist_max52_pct": -4.3,
+   "vol_vs_prom": 0.7,
+   "dia_pct": -3.0,
+   "nombre": "Snowflake Inc.",
+   "sector": "Technology",
+   "cap_bn": 111.9,
+   "pe": null,
+   "pe_forward": 119.26236,
+   "eps": -3.53,
+   "crec_ventas_pct": 33.5,
+   "margen_pct": -23.8,
+   "filtro": "no rentable",
+   "objetivo_prom": 321.4,
+   "upside_pct": -0.4
   },
   {
    "ticker": "FCX",
    "tipo": "B",
    "regla": "Ruptura 52 semanas con volumen",
-   "precio": 76.66,
-   "ret_6m_pct": 17.5,
+   "precio": 77.8,
+   "ret_6m_pct": 15.1,
    "dist_max52_pct": 0.0,
-   "vol_vs_prom": 2.2,
-   "dia_pct": 7.6,
+   "vol_vs_prom": 1.6,
+   "dia_pct": 1.5,
    "nombre": "Freeport-McMoRan, Inc.",
    "sector": "Basic Materials",
-   "cap_bn": 110.1,
-   "pe": 37.578434,
-   "pe_forward": 18.593122,
+   "cap_bn": 111.7,
+   "pe": 38.137257,
+   "pe_forward": 18.869617,
    "eps": 2.04,
    "crec_ventas_pct": -7.3,
    "margen_pct": 11.4,
    "filtro": "ventas cayendo -7%",
    "objetivo_prom": 71.7,
-   "upside_pct": -6.4
+   "upside_pct": -7.8
   }
  ],
  "mercado": null,
- "top10_momentum": [],
- "spx_cierre": 7674.37
+ "top10_momentum": [
+  {
+   "ticker": "DELL",
+   "ret_6m_pct": 263.4,
+   "precio": 433.19
+  },
+  {
+   "ticker": "MRVL",
+   "ret_6m_pct": 192.7,
+   "precio": 229.29
+  },
+  {
+   "ticker": "MRNA",
+   "ret_6m_pct": 174.9,
+   "precio": 138.89
+  },
+  {
+   "ticker": "HPE",
+   "ret_6m_pct": 161.3,
+   "precio": 52.43
+  },
+  {
+   "ticker": "PANW",
+   "ret_6m_pct": 147.7,
+   "precio": 350.9
+  },
+  {
+   "ticker": "SNDK",
+   "ret_6m_pct": 133.8,
+   "precio": 1493.12
+  },
+  {
+   "ticker": "HUM",
+   "ret_6m_pct": 123.0,
+   "precio": 386.61
+  },
+  {
+   "ticker": "MU",
+   "ret_6m_pct": 117.9,
+   "precio": 910.43
+  },
+  {
+   "ticker": "CRWD",
+   "ret_6m_pct": 117.8,
+   "precio": 190.68
+  },
+  {
+   "ticker": "DDOG",
+   "ret_6m_pct": 116.2,
+   "precio": 225.77
+  }
+ ],
+ "spx_cierre": 7652.86
 }
