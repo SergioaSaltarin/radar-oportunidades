@@ -1,50 +1,7 @@
 {
  "fecha": "2026-08-25",
- "generado_utc": "2026-08-25 21:45",
- "candidatas": [
-  {
-   "ticker": "ZBRA",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 360.52,
-   "ret_6m_pct": 50.8,
-   "dist_max52_pct": -5.9,
-   "vol_vs_prom": 0.5,
-   "dia_pct": -0.8,
-   "nombre": "Zebra Technologies Corporation",
-   "sector": "Technology",
-   "cap_bn": 17.1,
-   "pe": 33.07523,
-   "pe_forward": 16.210678,
-   "eps": 10.9,
-   "crec_ventas_pct": 20.4,
-   "margen_pct": 9.2,
-   "filtro": "OK",
-   "objetivo_prom": 405.3,
-   "upside_pct": 12.4
-  },
-  {
-   "ticker": "BBY",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 85.29,
-   "ret_6m_pct": 40.8,
-   "dist_max52_pct": -5.4,
-   "vol_vs_prom": 1.3,
-   "dia_pct": -2.5,
-   "nombre": "Best Buy Co., Inc.",
-   "sector": "Consumer Cyclical",
-   "cap_bn": null,
-   "pe": 15.794444,
-   "pe_forward": 12.03692,
-   "eps": 5.4,
-   "crec_ventas_pct": 1.9,
-   "margen_pct": 2.7,
-   "filtro": "OK",
-   "objetivo_prom": 83.4,
-   "upside_pct": -2.2
-  }
- ],
+ "generado_utc": "2026-08-25 22:48",
+ "candidatas": [],
  "descartadas_por_calidad": [
   {
    "ticker": "SNOW",
