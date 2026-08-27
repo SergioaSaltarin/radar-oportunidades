@@ -1,31 +1,31 @@
 {
- "fecha": "2026-08-25",
- "generado_utc": "2026-08-25 22:48",
+ "fecha": "2026-08-26",
+ "generado_utc": "2026-08-27 00:48",
  "candidatas": [],
  "descartadas_por_calidad": [
   {
-   "ticker": "SNOW",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 317.02,
-   "ret_6m_pct": 87.4,
-   "dist_max52_pct": -6.0,
-   "vol_vs_prom": 0.9,
-   "dia_pct": -1.8,
-   "nombre": "Snowflake Inc.",
-   "sector": "Technology",
-   "cap_bn": 109.9,
+   "ticker": "SJM",
+   "tipo": "B",
+   "regla": "Ruptura 52 semanas con volumen",
+   "precio": 130.9,
+   "ret_6m_pct": 15.2,
+   "dist_max52_pct": 0.0,
+   "vol_vs_prom": 2.5,
+   "dia_pct": 4.3,
+   "nombre": "The J.M. Smucker Company",
+   "sector": "Consumer Defensive",
+   "cap_bn": 14.0,
    "pe": null,
-   "pe_forward": 117.134125,
-   "eps": -3.52,
-   "crec_ventas_pct": 33.5,
-   "margen_pct": -23.8,
+   "pe_forward": 12.154854,
+   "eps": -1.3,
+   "crec_ventas_pct": 5.8,
+   "margen_pct": -1.5,
    "filtro": "no rentable",
-   "objetivo_prom": 321.4,
-   "upside_pct": 1.4
+   "objetivo_prom": 127.7,
+   "upside_pct": -2.5
   }
  ],
  "mercado": null,
  "top10_momentum": [],
- "spx_cierre": 7677.28
+ "spx_cierre": 7675.7
 }
