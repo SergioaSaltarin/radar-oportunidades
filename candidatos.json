@@ -1,9 +1,124 @@
 {
- "fecha": "2026-08-28",
- "generado_utc": "2026-08-29 03:44",
- "candidatas": [],
+ "fecha": "2026-08-31",
+ "generado_utc": "2026-09-01 00:38",
+ "candidatas": [
+  {
+   "ticker": "ABNB",
+   "tipo": "A",
+   "regla": "Lider en retroceso",
+   "precio": 183.22,
+   "ret_6m_pct": 37.7,
+   "dist_max52_pct": -3.8,
+   "vol_vs_prom": 1.4,
+   "dia_pct": -3.3,
+   "nombre": "Airbnb, Inc.",
+   "sector": "Consumer Cyclical",
+   "cap_bn": 109.7,
+   "pe": 43.314423,
+   "pe_forward": 29.846077,
+   "eps": 4.23,
+   "crec_ventas_pct": 16.5,
+   "margen_pct": 20.4,
+   "filtro": "OK",
+   "objetivo_prom": 176.8,
+   "upside_pct": -3.5
+  },
+  {
+   "ticker": "PSX",
+   "tipo": "B",
+   "regla": "Ruptura 52 semanas con volumen",
+   "precio": 246.58,
+   "ret_6m_pct": 56.3,
+   "dist_max52_pct": 0.0,
+   "vol_vs_prom": 1.6,
+   "dia_pct": 1.1,
+   "nombre": "Phillips 66",
+   "sector": "Energy",
+   "cap_bn": 98.9,
+   "pe": 13.931073,
+   "pe_forward": 11.918025,
+   "eps": 17.7,
+   "crec_ventas_pct": 53.1,
+   "margen_pct": 4.7,
+   "filtro": "OK",
+   "objetivo_prom": 222.0,
+   "upside_pct": -10.0
+  },
+  {
+   "ticker": "SLB",
+   "tipo": "B",
+   "regla": "Ruptura 52 semanas con volumen",
+   "precio": 60.1,
+   "ret_6m_pct": 24.4,
+   "dist_max52_pct": 0.0,
+   "vol_vs_prom": 3.5,
+   "dia_pct": 4.8,
+   "nombre": "SLB Limited",
+   "sector": "Energy",
+   "cap_bn": 89.2,
+   "pe": 29.317074,
+   "pe_forward": 18.572138,
+   "eps": 2.05,
+   "crec_ventas_pct": 5.0,
+   "margen_pct": 8.5,
+   "filtro": "OK",
+   "objetivo_prom": 61.9,
+   "upside_pct": 3.0
+  }
+ ],
  "descartadas_por_calidad": [],
  "mercado": null,
- "top10_momentum": [],
- "spx_cierre": 7711.76
+ "top10_momentum": [
+  {
+   "ticker": "DELL",
+   "ret_6m_pct": 215.6,
+   "precio": 456.01
+  },
+  {
+   "ticker": "MRNA",
+   "ret_6m_pct": 181.6,
+   "precio": 140.34
+  },
+  {
+   "ticker": "SNDK",
+   "ret_6m_pct": 177.1,
+   "precio": 1566.7
+  },
+  {
+   "ticker": "MRVL",
+   "ret_6m_pct": 173.3,
+   "precio": 211.66
+  },
+  {
+   "ticker": "MU",
+   "ret_6m_pct": 152.7,
+   "precio": 958.73
+  },
+  {
+   "ticker": "AMD",
+   "ret_6m_pct": 146.5,
+   "precio": 470.72
+  },
+  {
+   "ticker": "PANW",
+   "ret_6m_pct": 144.8,
+   "precio": 382.13
+  },
+  {
+   "ticker": "HPE",
+   "ret_6m_pct": 143.7,
+   "precio": 52.24
+  },
+  {
+   "ticker": "CRWD",
+   "ret_6m_pct": 136.1,
+   "precio": 231.0
+  },
+  {
+   "ticker": "STX",
+   "ret_6m_pct": 132.2,
+   "precio": 828.38
+  }
+ ],
+ "spx_cierre": 7686.14
 }
