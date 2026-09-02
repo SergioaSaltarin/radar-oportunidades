@@ -1,8 +1,30 @@
 {
  "fecha": "2026-09-01",
- "generado_utc": "2026-09-01 23:19",
+ "generado_utc": "2026-09-02 00:19",
  "candidatas": [],
- "descartadas_por_calidad": [],
+ "descartadas_por_calidad": [
+  {
+   "ticker": "DE",
+   "tipo": "B",
+   "regla": "Ruptura 52 semanas con volumen",
+   "precio": 676.08,
+   "ret_6m_pct": 10.7,
+   "dist_max52_pct": 0.0,
+   "vol_vs_prom": 1.9,
+   "dia_pct": 3.2,
+   "nombre": "Deere & Company",
+   "sector": "Industrials",
+   "cap_bn": 182.3,
+   "pe": 37.539146,
+   "pe_forward": 30.112282,
+   "eps": 18.01,
+   "crec_ventas_pct": -11.1,
+   "margen_pct": 10.2,
+   "filtro": "ventas cayendo -11%",
+   "objetivo_prom": 666.7,
+   "upside_pct": -1.4
+  }
+ ],
  "mercado": null,
  "top10_momentum": [],
  "spx_cierre": 7631.47
