@@ -64,7 +64,11 @@ def notify(title, body, urgent=False):
                       timeout=15)
     except Exception as e:
         print(f"(fallo ntfy: {e})")
-    print(f"NOTIFICACION: {title}\n{body}\n")
+    try:
+        print(f"NOTIFICACION: {title}\n{body}\n")
+    except UnicodeEncodeError:      # consolas Windows sin UTF-8
+        enc = lambda s: s.encode("ascii", "replace").decode()
+        print(f"NOTIFICACION: {enc(title)}\n{enc(body)}\n")
 
 
 def _tablas(url):
@@ -235,6 +239,57 @@ def main():
             break
     print(f"Pasan calidad: {len(elegidas)} | descartadas: {[(d['ticker'], d['filtro']) for d in descartadas]}")
 
+    # ---- RANKING PERMANENTE: puntaje compuesto sobre el universo ----
+    # Responde "cual es la mejor" de forma estable, no por evento del dia.
+    # Factores con evidencia academica: momentum (12m menos el ultimo mes),
+    # tendencia, calidad (margen, crecimiento, rentabilidad) y valoracion.
+    ranking = []
+    r12 = close.iloc[-1] / close.iloc[-252] - 1
+    r12_1 = close.iloc[-21] / close.iloc[-252] - 1     # momentum sin el ultimo mes
+    universo_mom = r12_1.dropna()
+    for t in close.columns:
+        try:
+            p, s50, s200 = px[t], sma50.iloc[-1][t], sma200.iloc[-1][t]
+            if np.isnan(p) or np.isnan(s200) or r6m[t] > MAX_R6M:
+                continue
+            if p < s200:                       # solo tendencia primaria alcista
+                continue
+            pct_mom = float((universo_mom < r12_1[t]).mean())   # percentil 0-1
+            score = 40 * pct_mom + (10 if p > s50 else 0)
+            ranking.append((t, score, float(r12[t]) * 100))
+        except Exception:
+            continue
+    ranking.sort(key=lambda x: -x[1])
+    top_tec = [t for t, _, _ in ranking[:25]]
+    scored = []
+    for t in top_tec:
+        pasa, d = calidad(t)
+        if not pasa or not d.get("cap_bn"):
+            continue
+        s = next(s for tt, s, _ in ranking if tt == t)
+        crec = d.get("crec_ventas_pct") or 0
+        marg = d.get("margen_pct") or 0
+        s += min(20, crec / 2) + min(15, marg / 3)          # calidad
+        pe_f = d.get("pe_forward")
+        if pe_f and 0 < pe_f < 60:
+            s += max(0, 15 - pe_f / 4)                       # valoracion
+        try:
+            apt = yf.Ticker(t).analyst_price_targets or {}
+            if apt.get("mean"):
+                up = (apt["mean"] / float(px[t]) - 1) * 100
+                d["objetivo_prom"], d["upside_pct"] = round(apt["mean"], 1), round(up, 1)
+                s += max(-10, min(20, up / 2))               # upside del consenso
+        except Exception:
+            pass
+        veces = st.setdefault("historial_rank", {}).get(t, 0)
+        d.update(ticker=t, score=round(s, 1), precio=round(float(px[t]), 2),
+                 ret_12m_pct=round(float(r12[t]) * 100, 1), veces_en_top=veces + 1)
+        scored.append(d)
+        st["historial_rank"][t] = veces + 1
+        if len(scored) >= 8:
+            break
+    scored.sort(key=lambda d: -d["score"])
+
     nota_mercado = mercado(st, today, spx)
 
     if elegidas:
@@ -260,8 +315,8 @@ def main():
 
     json.dump({"fecha": today, "generado_utc": datetime.now(ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M"),
                "candidatas": elegidas, "descartadas_por_calidad": descartadas,
-               "mercado": nota_mercado, "top10_momentum": top10,
-               "spx_cierre": round(float(spx.iloc[-1]), 2)},
+               "ranking_permanente": scored, "mercado": nota_mercado,
+               "top10_momentum": top10, "spx_cierre": round(float(spx.iloc[-1]), 2)},
               open(OUT_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(st, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("OK", today)
