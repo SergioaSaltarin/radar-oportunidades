@@ -28,20 +28,24 @@
   "PFG": "2026-09-03",
   "NUE": "2026-09-03",
   "IQV": "2026-09-03",
-  "APH": "2026-09-03"
+  "APH": "2026-09-03",
+  "MRVL": "2026-09-04"
  },
  "weekly_date": "2026-08-31",
  "mercado": {},
  "historial_rank": {
-  "STLD": 2,
-  "EC": 2,
-  "CRWD": 2,
-  "VLO": 2,
-  "NUE": 2,
+  "STLD": 3,
+  "EC": 3,
+  "CRWD": 3,
+  "VLO": 3,
+  "NUE": 3,
   "CIB": 2,
   "FDX": 2,
   "MPC": 2,
   "APH": 1,
-  "VMRK": 1
+  "VMRK": 1,
+  "MRVL": 1,
+  "HPE": 1,
+  "KEYS": 1
  }
 }
