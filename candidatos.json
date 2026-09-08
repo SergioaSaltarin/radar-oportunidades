@@ -1,29 +1,7 @@
 {
  "fecha": "2026-09-07",
- "generado_utc": "2026-09-07 23:30",
- "candidatas": [
-  {
-   "ticker": "ANET",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 193.78,
-   "ret_6m_pct": 41.3,
-   "dist_max52_pct": -7.9,
-   "vol_vs_prom": 0.7,
-   "dia_pct": 1.2,
-   "nombre": "Arista Networks, Inc.",
-   "sector": "Technology",
-   "cap_bn": 244.4,
-   "pe": 61.322784,
-   "pe_forward": 37.552223,
-   "eps": 3.16,
-   "crec_ventas_pct": 37.7,
-   "margen_pct": 38.4,
-   "filtro": "OK",
-   "objetivo_prom": 241.0,
-   "upside_pct": 24.4
-  }
- ],
+ "generado_utc": "2026-09-08 00:28",
+ "candidatas": [],
  "descartadas_por_calidad": [
   {
    "ticker": "CRL",
@@ -106,7 +84,7 @@
    "score": 97.2,
    "precio": 223.55,
    "ret_12m_pct": 253.7,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "Hewlett Packard Enterprise Comp",
@@ -124,7 +102,7 @@
    "score": 95.0,
    "precio": 52.0,
    "ret_12m_pct": 125.7,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "Keysight Technologies Inc.",
@@ -142,7 +120,7 @@
    "score": 95.0,
    "precio": 327.21,
    "ret_12m_pct": 94.9,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "Steel Dynamics, Inc.",
@@ -160,7 +138,7 @@
    "score": 84.9,
    "precio": 242.06,
    "ret_12m_pct": 81.9,
-   "veces_en_top": 4
+   "veces_en_top": 5
   },
   {
    "nombre": "Nucor Corporation",
@@ -178,7 +156,7 @@
    "score": 77.3,
    "precio": 261.07,
    "ret_12m_pct": 79.7,
-   "veces_en_top": 4
+   "veces_en_top": 5
   },
   {
    "nombre": "Valero Energy Corporation",
@@ -196,7 +174,7 @@
    "score": 75.4,
    "precio": 370.72,
    "ret_12m_pct": 141.5,
-   "veces_en_top": 4
+   "veces_en_top": 5
   },
   {
    "nombre": "Ecopetrol S.A.",
@@ -214,7 +192,7 @@
    "score": 71.5,
    "precio": 17.25,
    "ret_12m_pct": 99.4,
-   "veces_en_top": 4
+   "veces_en_top": 5
   },
   {
    "nombre": "CrowdStrike Holdings, Inc.",
@@ -232,61 +210,10 @@
    "score": 65.6,
    "precio": 213.1,
    "ret_12m_pct": 104.1,
-   "veces_en_top": 4
+   "veces_en_top": 5
   }
  ],
  "mercado": null,
- "top10_momentum": [
-  {
-   "ticker": "DELL",
-   "ret_6m_pct": 259.5,
-   "precio": 524.14
-  },
-  {
-   "ticker": "SNDK",
-   "ret_6m_pct": 195.6,
-   "precio": 1740.0
-  },
-  {
-   "ticker": "MU",
-   "ret_6m_pct": 161.3,
-   "precio": 1016.59
-  },
-  {
-   "ticker": "MRNA",
-   "ret_6m_pct": 161.1,
-   "precio": 145.55
-  },
-  {
-   "ticker": "MRVL",
-   "ret_6m_pct": 141.5,
-   "precio": 223.55
-  },
-  {
-   "ticker": "HPE",
-   "ret_6m_pct": 140.7,
-   "precio": 52.0
-  },
-  {
-   "ticker": "AMD",
-   "ret_6m_pct": 135.6,
-   "precio": 477.57
-  },
-  {
-   "ticker": "STX",
-   "ret_6m_pct": 127.4,
-   "precio": 849.28
-  },
-  {
-   "ticker": "HUM",
-   "ret_6m_pct": 126.6,
-   "precio": 401.54
-  },
-  {
-   "ticker": "ARM",
-   "ret_6m_pct": 114.3,
-   "precio": 252.09
-  }
- ],
+ "top10_momentum": [],
  "spx_cierre": 7718.6
 }
