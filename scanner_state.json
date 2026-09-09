@@ -30,16 +30,17 @@
   "IQV": "2026-09-03",
   "APH": "2026-09-03",
   "MRVL": "2026-09-04",
-  "TGT": "2026-09-08"
+  "TGT": "2026-09-08",
+  "RVTY": "2026-09-09"
  },
  "weekly_date": "2026-09-07",
  "mercado": {},
  "historial_rank": {
   "STLD": 5,
   "EC": 5,
-  "CRWD": 5,
-  "VLO": 5,
-  "NUE": 5,
+  "CRWD": 6,
+  "VLO": 6,
+  "NUE": 6,
   "CIB": 2,
   "FDX": 2,
   "MPC": 2,
@@ -47,13 +48,13 @@
   "VMRK": 1,
   "MRVL": 4,
   "HPE": 3,
-  "KEYS": 3,
-  "MU": 1,
-  "STX": 1,
+  "KEYS": 4,
+  "MU": 2,
+  "STX": 2,
   "AMD": 1,
-  "TER": 1,
+  "TER": 2,
   "VRT": 1,
-  "GLW": 1,
+  "GLW": 2,
   "ASML": 1
  }
 }
