@@ -1,10 +1,16 @@
 {
- "fecha": "2026-09-25",
- "generado_utc": "2026-09-26 00:39",
+ "fecha": "2026-09-28",
+ "generado_utc": "2026-09-29 01:00",
  "candidatas": [],
  "descartadas_por_calidad": [],
  "ranking_permanente": [],
  "mercado": null,
- "top10_momentum": [],
- "spx_cierre": 7743.41
+ "top10_momentum": [
+  {
+   "ticker": "HUBB",
+   "ret_6m_pct": -0.7,
+   "precio": 465.72
+  }
+ ],
+ "spx_cierre": 7683.69
 }
