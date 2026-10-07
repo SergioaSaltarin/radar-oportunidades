@@ -1,7 +1,29 @@
 {
  "fecha": "2026-10-06",
- "generado_utc": "2026-10-07 00:43",
- "candidatas": [],
+ "generado_utc": "2026-10-07 01:36",
+ "candidatas": [
+  {
+   "ticker": "CEG",
+   "tipo": "C",
+   "regla": "Despertar con volumen",
+   "precio": 300.4,
+   "ret_6m_pct": 6.0,
+   "dist_max52_pct": -25.2,
+   "vol_vs_prom": 4.4,
+   "dia_pct": 12.2,
+   "nombre": "Constellation Energy Corporatio",
+   "sector": "Utilities",
+   "cap_bn": 106.4,
+   "pe": 29.364614,
+   "pe_forward": 22.55228,
+   "eps": 10.23,
+   "crec_ventas_pct": 23.0,
+   "margen_pct": 11.1,
+   "filtro": "OK",
+   "objetivo_prom": 341.5,
+   "upside_pct": 13.7
+  }
+ ],
  "descartadas_por_calidad": [
   {
    "ticker": "INTC",
@@ -23,9 +45,48 @@
    "filtro": "no rentable",
    "objetivo_prom": 118.0,
    "upside_pct": 4.9
+  },
+  {
+   "ticker": "VST",
+   "tipo": "C",
+   "regla": "Despertar con volumen",
+   "precio": 160.5,
+   "ret_6m_pct": 3.3,
+   "dist_max52_pct": -23.4,
+   "vol_vs_prom": 3.3,
+   "dia_pct": 10.8,
+   "nombre": "Vistra Corp.",
+   "sector": "Utilities",
+   "cap_bn": 53.9,
+   "pe": 27.065767,
+   "pe_forward": 15.4084835,
+   "eps": 5.93,
+   "crec_ventas_pct": -5.5,
+   "margen_pct": 11.6,
+   "filtro": "ventas cayendo -6%",
+   "objetivo_prom": 210.2,
+   "upside_pct": 31.0
   }
  ],
  "ranking_permanente": [
+  {
+   "nombre": "Sandisk Corporation",
+   "sector": "Technology",
+   "cap_bn": 243.1,
+   "pe": 23.103659,
+   "pe_forward": 6.260183,
+   "eps": 71.87,
+   "crec_ventas_pct": 371.6,
+   "margen_pct": 56.5,
+   "filtro": "OK",
+   "objetivo_prom": 2173.0,
+   "upside_pct": 30.9,
+   "ticker": "SNDK",
+   "score": 113.8,
+   "precio": 1660.46,
+   "ret_12m_pct": 1270.4,
+   "veces_en_top": 8
+  },
   {
    "nombre": "Coherent Corp.",
    "sector": "Technology",
@@ -39,10 +100,10 @@
    "objetivo_prom": 412.5,
    "upside_pct": 21.9,
    "ticker": "COHR",
-   "score": 90.1,
+   "score": 89.8,
    "precio": 338.36,
    "ret_12m_pct": 194.8,
-   "veces_en_top": 9
+   "veces_en_top": 10
   },
   {
    "nombre": "Applied Materials, Inc.",
@@ -57,28 +118,28 @@
    "objetivo_prom": 638.9,
    "upside_pct": 20.5,
    "ticker": "AMAT",
-   "score": 89.3,
+   "score": 89.0,
    "precio": 530.27,
    "ret_12m_pct": 138.1,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "Lam Research Corporation",
    "sector": "Technology",
    "cap_bn": 417.8,
-   "pe": 58.270508,
+   "pe": 57.967014,
    "pe_forward": 28.381992,
-   "eps": 5.73,
+   "eps": 5.76,
    "crec_ventas_pct": 30.0,
    "margen_pct": 31.3,
    "filtro": "OK",
    "objetivo_prom": 375.6,
    "upside_pct": 12.5,
    "ticker": "LRCX",
-   "score": 88.5,
+   "score": 88.2,
    "precio": 333.89,
    "ret_12m_pct": 124.9,
-   "veces_en_top": 7
+   "veces_en_top": 8
   },
   {
    "nombre": "Teradyne, Inc.",
@@ -93,10 +154,10 @@
    "objetivo_prom": 446.5,
    "upside_pct": 3.8,
    "ticker": "TER",
-   "score": 85.6,
+   "score": 85.3,
    "precio": 430.32,
    "ret_12m_pct": 191.6,
-   "veces_en_top": 12
+   "veces_en_top": 13
   },
   {
    "nombre": "Ciena Corporation",
@@ -111,10 +172,10 @@
    "objetivo_prom": 513.0,
    "upside_pct": 15.6,
    "ticker": "CIEN",
-   "score": 84.7,
+   "score": 84.4,
    "precio": 443.65,
    "ret_12m_pct": 189.5,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "Valero Energy Corporation",
@@ -126,49 +187,31 @@
    "crec_ventas_pct": 51.7,
    "margen_pct": 5.4,
    "filtro": "OK",
-   "objetivo_prom": 374.7,
-   "upside_pct": -10.6,
+   "objetivo_prom": 367.6,
+   "upside_pct": -12.3,
    "ticker": "VLO",
-   "score": 78.2,
+   "score": 77.1,
    "precio": 419.22,
    "ret_12m_pct": 162.0,
-   "veces_en_top": 20
+   "veces_en_top": 21
   },
   {
-   "nombre": "Marathon Petroleum Corporation",
-   "sector": "Energy",
-   "cap_bn": 121.4,
-   "pe": 15.007289,
-   "pe_forward": 8.530022,
-   "eps": 28.81,
-   "crec_ventas_pct": 53.7,
-   "margen_pct": 5.5,
+   "nombre": "Bloom Energy Corporation",
+   "sector": "Industrials",
+   "cap_bn": 87.1,
+   "pe": 379.20514,
+   "pe_forward": 59.849052,
+   "eps": 0.78,
+   "crec_ventas_pct": 165.5,
+   "margen_pct": 7.9,
    "filtro": "OK",
-   "objetivo_prom": 385.6,
-   "upside_pct": -10.8,
-   "ticker": "MPC",
-   "score": 78.0,
-   "precio": 432.36,
-   "ret_12m_pct": 127.2,
+   "objetivo_prom": 282.8,
+   "upside_pct": -4.4,
+   "ticker": "BE",
+   "score": 69.9,
+   "precio": 295.78,
+   "ret_12m_pct": 240.1,
    "veces_en_top": 9
-  },
-  {
-   "nombre": "Illumina, Inc.",
-   "sector": "Healthcare",
-   "cap_bn": 41.3,
-   "pe": 51.03358,
-   "pe_forward": 44.799587,
-   "eps": 5.36,
-   "crec_ventas_pct": 9.4,
-   "margen_pct": 18.3,
-   "filtro": "OK",
-   "objetivo_prom": 223.8,
-   "upside_pct": -18.2,
-   "ticker": "ILMN",
-   "score": 54.2,
-   "precio": 273.54,
-   "ret_12m_pct": 170.8,
-   "veces_en_top": 7
   }
  ],
  "mercado": null,
