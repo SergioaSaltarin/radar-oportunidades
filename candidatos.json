@@ -1,50 +1,7 @@
 {
  "fecha": "2026-10-12",
- "generado_utc": "2026-10-13 02:35",
- "candidatas": [
-  {
-   "ticker": "MRVL",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 265.86,
-   "ret_6m_pct": 98.7,
-   "dist_max52_pct": -15.9,
-   "vol_vs_prom": 1.0,
-   "dia_pct": -3.4,
-   "nombre": "Marvell Technology, Inc.",
-   "sector": "Technology",
-   "cap_bn": 238.9,
-   "pe": 87.45394,
-   "pe_forward": 36.505337,
-   "eps": 3.04,
-   "crec_ventas_pct": 36.5,
-   "margen_pct": 27.9,
-   "filtro": "OK",
-   "objetivo_prom": 338.0,
-   "upside_pct": 27.1
-  },
-  {
-   "ticker": "CRM",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 233.92,
-   "ret_6m_pct": 37.1,
-   "dist_max52_pct": -11.5,
-   "vol_vs_prom": 0.8,
-   "dia_pct": 2.1,
-   "nombre": "Salesforce, Inc.",
-   "sector": "Technology",
-   "cap_bn": 192.5,
-   "pe": 21.401646,
-   "pe_forward": 14.6011095,
-   "eps": 10.93,
-   "crec_ventas_pct": 10.8,
-   "margen_pct": 22.0,
-   "filtro": "OK",
-   "objetivo_prom": 283.4,
-   "upside_pct": 21.1
-  }
- ],
+ "generado_utc": "2026-10-13 03:04",
+ "candidatas": [],
  "descartadas_por_calidad": [],
  "ranking_permanente": [
   {
@@ -63,7 +20,7 @@
    "score": 118.5,
    "precio": 989.04,
    "ret_12m_pct": 445.2,
-   "veces_en_top": 11
+   "veces_en_top": 12
   },
   {
    "nombre": "Marvell Technology, Inc.",
@@ -81,7 +38,7 @@
    "score": 96.2,
    "precio": 265.86,
    "ret_12m_pct": 211.1,
-   "veces_en_top": 12
+   "veces_en_top": 13
   },
   {
    "nombre": "Teradyne, Inc.",
@@ -99,7 +56,7 @@
    "score": 92.7,
    "precio": 383.85,
    "ret_12m_pct": 191.2,
-   "veces_en_top": 17
+   "veces_en_top": 18
   },
   {
    "nombre": "Advanced Micro Devices, Inc.",
@@ -117,7 +74,7 @@
    "score": 83.1,
    "precio": 594.24,
    "ret_12m_pct": 176.5,
-   "veces_en_top": 3
+   "veces_en_top": 4
   },
   {
    "nombre": "Marathon Petroleum Corporation",
@@ -129,30 +86,12 @@
    "crec_ventas_pct": 53.7,
    "margen_pct": 5.5,
    "filtro": "OK",
-   "objetivo_prom": 410.4,
-   "upside_pct": -10.6,
+   "objetivo_prom": 415.4,
+   "upside_pct": -9.5,
    "ticker": "MPC",
-   "score": 78.2,
+   "score": 78.7,
    "precio": 458.81,
    "ret_12m_pct": 157.9,
-   "veces_en_top": 12
-  },
-  {
-   "nombre": "Bloom Energy Corporation",
-   "sector": "Industrials",
-   "cap_bn": 77.2,
-   "pe": 345.10526,
-   "pe_forward": 53.243687,
-   "eps": 0.76,
-   "crec_ventas_pct": 165.5,
-   "margen_pct": 7.9,
-   "filtro": "OK",
-   "objetivo_prom": 284.7,
-   "upside_pct": 8.6,
-   "ticker": "BE",
-   "score": 78.0,
-   "precio": 262.28,
-   "ret_12m_pct": 201.9,
    "veces_en_top": 13
   },
   {
@@ -165,13 +104,31 @@
    "crec_ventas_pct": 51.7,
    "margen_pct": 5.4,
    "filtro": "OK",
-   "objetivo_prom": 388.7,
-   "upside_pct": -10.8,
+   "objetivo_prom": 391.9,
+   "upside_pct": -10.1,
    "ticker": "VLO",
-   "score": 78.0,
+   "score": 78.4,
    "precio": 436.0,
    "ret_12m_pct": 181.8,
-   "veces_en_top": 25
+   "veces_en_top": 26
+  },
+  {
+   "nombre": "Bloom Energy Corporation",
+   "sector": "Industrials",
+   "cap_bn": 77.2,
+   "pe": 345.10526,
+   "pe_forward": 53.243687,
+   "eps": 0.76,
+   "crec_ventas_pct": 165.5,
+   "margen_pct": 7.9,
+   "filtro": "OK",
+   "objetivo_prom": 281.7,
+   "upside_pct": 7.4,
+   "ticker": "BE",
+   "score": 77.4,
+   "precio": 262.28,
+   "ret_12m_pct": 201.9,
+   "veces_en_top": 14
   },
   {
    "nombre": "Illumina, Inc.",
@@ -189,61 +146,10 @@
    "score": 55.4,
    "precio": 276.67,
    "ret_12m_pct": 194.8,
-   "veces_en_top": 8
+   "veces_en_top": 9
   }
  ],
  "mercado": null,
- "top10_momentum": [
-  {
-   "ticker": "MRNA",
-   "ret_6m_pct": 304.5,
-   "precio": 213.74
-  },
-  {
-   "ticker": "DELL",
-   "ret_6m_pct": 214.1,
-   "precio": 576.76
-  },
-  {
-   "ticker": "HPE",
-   "ret_6m_pct": 189.0,
-   "precio": 70.33
-  },
-  {
-   "ticker": "SNOW",
-   "ret_6m_pct": 166.0,
-   "precio": 360.37
-  },
-  {
-   "ticker": "CRWD",
-   "ret_6m_pct": 164.0,
-   "precio": 263.01
-  },
-  {
-   "ticker": "DDOG",
-   "ret_6m_pct": 159.8,
-   "precio": 287.29
-  },
-  {
-   "ticker": "PANW",
-   "ret_6m_pct": 149.9,
-   "precio": 403.83
-  },
-  {
-   "ticker": "FTNT",
-   "ret_6m_pct": 145.2,
-   "precio": 192.94
-  },
-  {
-   "ticker": "NTAP",
-   "ret_6m_pct": 143.1,
-   "precio": 239.18
-  },
-  {
-   "ticker": "P",
-   "ret_6m_pct": 142.7,
-   "precio": 155.31
-  }
- ],
+ "top10_momentum": [],
  "spx_cierre": 7807.24
 }
