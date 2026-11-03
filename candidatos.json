@@ -1,111 +1,69 @@
 {
  "fecha": "2026-11-02",
- "generado_utc": "2026-11-03 02:55",
+ "generado_utc": "2026-11-03 03:29",
  "candidatas": [
   {
-   "ticker": "VEEV",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 307.0,
-   "ret_6m_pct": 79.3,
-   "dist_max52_pct": -5.0,
-   "vol_vs_prom": 0.9,
-   "dia_pct": -1.9,
-   "nombre": "Veeva Systems Inc.",
+   "ticker": "PFE",
+   "tipo": "B",
+   "regla": "Ruptura 52 semanas con volumen",
+   "precio": 30.67,
+   "ret_6m_pct": 19.9,
+   "dist_max52_pct": 0.0,
+   "vol_vs_prom": 1.7,
+   "dia_pct": 0.5,
+   "nombre": "Pfizer, Inc.",
    "sector": "Healthcare",
-   "cap_bn": 49.7,
-   "pe": 50.32787,
-   "pe_forward": 29.926664,
-   "eps": 6.1,
-   "crec_ventas_pct": 17.6,
-   "margen_pct": 29.3,
+   "cap_bn": 174.8,
+   "pe": 40.355263,
+   "pe_forward": 10.624146,
+   "eps": 0.76,
+   "crec_ventas_pct": 2.6,
+   "margen_pct": 6.8,
    "filtro": "OK",
-   "objetivo_prom": 303.5,
-   "upside_pct": -1.1
+   "objetivo_prom": 29.3,
+   "upside_pct": -4.6
   },
   {
-   "ticker": "REGN",
+   "ticker": "MAR",
    "tipo": "B",
    "regla": "Ruptura 52 semanas con volumen",
-   "precio": 961.26,
-   "ret_6m_pct": 37.2,
+   "precio": 416.3,
+   "ret_6m_pct": 17.9,
    "dist_max52_pct": 0.0,
-   "vol_vs_prom": 2.2,
-   "dia_pct": 3.6,
-   "nombre": "Regeneron Pharmaceuticals, Inc.",
+   "vol_vs_prom": 1.8,
+   "dia_pct": 4.3,
+   "nombre": "Marriott International",
+   "sector": "Consumer Cyclical",
+   "cap_bn": 108.6,
+   "pe": 43.095238,
+   "pe_forward": 31.63292,
+   "eps": 9.66,
+   "crec_ventas_pct": 11.1,
+   "margen_pct": 35.0,
+   "filtro": "OK",
+   "objetivo_prom": 390.8,
+   "upside_pct": -6.1
+  },
+  {
+   "ticker": "IDXX",
+   "tipo": "C",
+   "regla": "Despertar con volumen",
+   "precio": 671.64,
+   "ret_6m_pct": 19.3,
+   "dist_max52_pct": -12.4,
+   "vol_vs_prom": 3.5,
+   "dia_pct": 21.8,
+   "nombre": "IDEXX Laboratories, Inc.",
    "sector": "Healthcare",
-   "cap_bn": 99.4,
-   "pe": 21.24801,
-   "pe_forward": 13.718787,
-   "eps": 45.24,
-   "crec_ventas_pct": 36.3,
-   "margen_pct": 28.5,
+   "cap_bn": 53.0,
+   "pe": 47.19888,
+   "pe_forward": 40.113647,
+   "eps": 14.23,
+   "crec_ventas_pct": 9.7,
+   "margen_pct": 25.0,
    "filtro": "OK",
-   "objetivo_prom": 969.6,
-   "upside_pct": 0.9
-  },
-  {
-   "ticker": "IFF",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 94.63,
-   "ret_6m_pct": 35.1,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 1.5,
-   "dia_pct": 1.7,
-   "nombre": "International Flavors & Fragran",
-   "sector": "Basic Materials",
-   "cap_bn": 24.1,
-   "pe": 93.69307,
-   "pe_forward": 24.10501,
-   "eps": 1.01,
-   "crec_ventas_pct": 1.8,
-   "margen_pct": 2.6,
-   "filtro": "OK",
-   "objetivo_prom": 97.5,
-   "upside_pct": 3.0
-  },
-  {
-   "ticker": "EXPD",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 200.56,
-   "ret_6m_pct": 31.7,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 1.6,
-   "dia_pct": 0.9,
-   "nombre": "Expeditors International of Was",
-   "sector": "Industrials",
-   "cap_bn": 26.1,
-   "pe": 29.193596,
-   "pe_forward": 24.752058,
-   "eps": 6.87,
-   "crec_ventas_pct": 32.1,
-   "margen_pct": 7.6,
-   "filtro": "OK",
-   "objetivo_prom": 181.5,
-   "upside_pct": -9.5
-  },
-  {
-   "ticker": "VLTO",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 115.7,
-   "ret_6m_pct": 31.7,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 2.1,
-   "dia_pct": 4.1,
-   "nombre": "Veralto Corp",
-   "sector": "Industrials",
-   "cap_bn": 28.1,
-   "pe": 28.5679,
-   "pe_forward": 23.851145,
-   "eps": 4.05,
-   "crec_ventas_pct": 7.5,
-   "margen_pct": 17.3,
-   "filtro": "OK",
-   "objetivo_prom": 123.7,
-   "upside_pct": 6.9
+   "objetivo_prom": 694.8,
+   "upside_pct": 3.5
   }
  ],
  "descartadas_por_calidad": [
@@ -121,9 +79,9 @@
    "nombre": "PTC Inc.",
    "sector": "Technology",
    "cap_bn": 21.1,
-   "pe": 18.84675,
+   "pe": 18.957073,
    "pe_forward": 21.789177,
-   "eps": 10.31,
+   "eps": 10.25,
    "crec_ventas_pct": -6.8,
    "margen_pct": 41.4,
    "filtro": "ventas cayendo -7%",
@@ -136,9 +94,9 @@
    "nombre": "Analog Devices, Inc.",
    "sector": "Technology",
    "cap_bn": 200.1,
-   "pe": 49.032066,
+   "pe": 49.561825,
    "pe_forward": 25.02003,
-   "eps": 8.42,
+   "eps": 8.33,
    "crec_ventas_pct": 39.6,
    "margen_pct": 29.8,
    "filtro": "OK",
@@ -148,15 +106,15 @@
    "score": 93.1,
    "precio": 412.85,
    "ret_12m_pct": 78.5,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "Marathon Petroleum Corporation",
    "sector": "Energy",
-   "cap_bn": 120.9,
-   "pe": 14.902701,
+   "cap_bn": 125.6,
+   "pe": 15.398569,
    "pe_forward": 7.1365614,
-   "eps": 28.88,
+   "eps": 27.95,
    "crec_ventas_pct": 53.7,
    "margen_pct": 5.5,
    "filtro": "OK",
@@ -166,15 +124,15 @@
    "score": 87.1,
    "precio": 430.39,
    "ret_12m_pct": 124.5,
-   "veces_en_top": 24
+   "veces_en_top": 25
   },
   {
    "nombre": "Texas Instruments Incorporated",
    "sector": "Technology",
    "cap_bn": 276.1,
-   "pe": 39.1725,
+   "pe": 39.02067,
    "pe_forward": 26.211233,
-   "eps": 7.71,
+   "eps": 7.74,
    "crec_ventas_pct": 27.7,
    "margen_pct": 34.3,
    "filtro": "OK",
@@ -184,7 +142,7 @@
    "score": 87.1,
    "precio": 302.02,
    "ret_12m_pct": 91.1,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "Phillips 66",
@@ -202,7 +160,7 @@
    "score": 86.5,
    "precio": 275.04,
    "ret_12m_pct": 108.0,
-   "veces_en_top": 9
+   "veces_en_top": 10
   },
   {
    "nombre": "APA Corporation",
@@ -220,7 +178,7 @@
    "score": 72.0,
    "precio": 48.82,
    "ret_12m_pct": 121.7,
-   "veces_en_top": 6
+   "veces_en_top": 7
   },
   {
    "nombre": "Targa Resources, Inc.",
@@ -238,7 +196,7 @@
    "score": 69.3,
    "precio": 294.73,
    "ret_12m_pct": 94.9,
-   "veces_en_top": 5
+   "veces_en_top": 6
   },
   {
    "nombre": "Centene Corporation",
@@ -256,15 +214,15 @@
    "score": 65.8,
    "precio": 66.53,
    "ret_12m_pct": 88.1,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "CrowdStrike Holdings, Inc.",
    "sector": "Technology",
    "cap_bn": 247.6,
-   "pe": 4030.1667,
+   "pe": 4836.1997,
    "pe_forward": 150.14592,
-   "eps": 0.06,
+   "eps": 0.05,
    "crec_ventas_pct": 25.8,
    "margen_pct": 0.8,
    "filtro": "OK",
@@ -274,61 +232,10 @@
    "score": 62.6,
    "precio": 241.81,
    "ret_12m_pct": 78.1,
-   "veces_en_top": 15
+   "veces_en_top": 16
   }
  ],
  "mercado": null,
- "top10_momentum": [
-  {
-   "ticker": "MRNA",
-   "ret_6m_pct": 372.8,
-   "precio": 220.83
-  },
-  {
-   "ticker": "SNOW",
-   "ret_6m_pct": 105.1,
-   "precio": 290.68
-  },
-  {
-   "ticker": "CRWD",
-   "ret_6m_pct": 103.0,
-   "precio": 241.81
-  },
-  {
-   "ticker": "PANW",
-   "ret_6m_pct": 91.2,
-   "precio": 351.72
-  },
-  {
-   "ticker": "CRL",
-   "ret_6m_pct": 82.6,
-   "precio": 338.54
-  },
-  {
-   "ticker": "DELL",
-   "ret_6m_pct": 82.1,
-   "precio": 392.78
-  },
-  {
-   "ticker": "VEEV",
-   "ret_6m_pct": 79.3,
-   "precio": 307.0
-  },
-  {
-   "ticker": "HUM",
-   "ret_6m_pct": 72.1,
-   "precio": 410.41
-  },
-  {
-   "ticker": "BBY",
-   "ret_6m_pct": 71.9,
-   "precio": 96.14
-  },
-  {
-   "ticker": "HPE",
-   "ret_6m_pct": 71.3,
-   "precio": 51.19
-  }
- ],
+ "top10_momentum": [],
  "spx_cierre": 7541.4
 }
