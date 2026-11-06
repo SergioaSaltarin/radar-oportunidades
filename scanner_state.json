@@ -91,7 +91,9 @@
   "AMGN": "2026-11-04"
  },
  "weekly_date": "2026-11-02",
- "mercado": {},
+ "mercado": {
+  "caida": "2026-11-05"
+ },
  "historial_rank": {
   "STLD": 6,
   "EC": 14,
