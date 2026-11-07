@@ -1,113 +1,7 @@
 {
  "fecha": "2026-11-06",
- "generado_utc": "2026-11-07 00:57",
- "candidatas": [
-  {
-   "ticker": "CTAS",
-   "tipo": "A",
-   "regla": "Lider en retroceso",
-   "precio": 222.36,
-   "ret_6m_pct": 35.8,
-   "dist_max52_pct": -2.9,
-   "vol_vs_prom": 0.9,
-   "dia_pct": -1.8,
-   "nombre": "Cintas Corporation",
-   "sector": "Industrials",
-   "cap_bn": 88.3,
-   "pe": 43.857986,
-   "pe_forward": 36.091778,
-   "eps": 5.07,
-   "crec_ventas_pct": 10.9,
-   "margen_pct": 17.8,
-   "filtro": "OK",
-   "objetivo_prom": 218.4,
-   "upside_pct": -1.8
-  },
-  {
-   "ticker": "MTD",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 1722.15,
-   "ret_6m_pct": 59.7,
-   "dist_max52_pct": -0.1,
-   "vol_vs_prom": 1.7,
-   "dia_pct": 2.6,
-   "nombre": "Mettler-Toledo International, I",
-   "sector": "Healthcare",
-   "cap_bn": 34.5,
-   "pe": 38.81339,
-   "pe_forward": 33.273888,
-   "eps": 44.37,
-   "crec_ventas_pct": 6.3,
-   "margen_pct": 22.2,
-   "filtro": "OK",
-   "objetivo_prom": 1525.7,
-   "upside_pct": -11.4
-  },
-  {
-   "ticker": "CPAY",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 455.16,
-   "ret_6m_pct": 33.3,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 2.1,
-   "dia_pct": 1.8,
-   "nombre": "Corpay, Inc.",
-   "sector": "Technology",
-   "cap_bn": 29.9,
-   "pe": 25.02254,
-   "pe_forward": 14.304499,
-   "eps": 18.19,
-   "crec_ventas_pct": 17.9,
-   "margen_pct": 23.7,
-   "filtro": "OK",
-   "objetivo_prom": 460.7,
-   "upside_pct": 1.2
-  },
-  {
-   "ticker": "EVRG",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 87.54,
-   "ret_6m_pct": 6.7,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 1.6,
-   "dia_pct": 0.1,
-   "nombre": "Evergy, Inc.",
-   "sector": "Utilities",
-   "cap_bn": 20.2,
-   "pe": 19.49666,
-   "pe_forward": 19.186428,
-   "eps": 4.49,
-   "crec_ventas_pct": 4.4,
-   "margen_pct": 15.2,
-   "filtro": "OK",
-   "objetivo_prom": 90.6,
-   "upside_pct": 3.5
-  },
-  {
-   "ticker": "ABNB",
-   "tipo": "C",
-   "regla": "Despertar con volumen",
-   "precio": 189.99,
-   "ret_6m_pct": 38.6,
-   "dist_max52_pct": -0.3,
-   "vol_vs_prom": 3.2,
-   "dia_pct": 11.7,
-   "nombre": "Airbnb, Inc.",
-   "sector": "Consumer Cyclical",
-   "cap_bn": 113.8,
-   "pe": 43.27791,
-   "pe_forward": 30.598246,
-   "eps": 4.39,
-   "crec_ventas_pct": 18.9,
-   "margen_pct": 23.0,
-   "filtro": "OK",
-   "objetivo_prom": 184.2,
-   "upside_pct": -3.1
-  }
- ],
+ "generado_utc": "2026-11-07 01:58",
+ "candidatas": [],
  "descartadas_por_calidad": [
   {
    "ticker": "CRL",
@@ -129,6 +23,48 @@
    "filtro": "ventas cayendo -2%",
    "objetivo_prom": 318.9,
    "upside_pct": -5.5
+  },
+  {
+   "ticker": "TRV",
+   "tipo": "A",
+   "regla": "Lider en retroceso",
+   "precio": 395.2,
+   "ret_6m_pct": 34.0,
+   "dist_max52_pct": -3.4,
+   "vol_vs_prom": 0.9,
+   "dia_pct": -1.9,
+   "nombre": "The Travelers Companies, Inc.",
+   "sector": "Financial Services",
+   "cap_bn": 81.0,
+   "pe": 10.391797,
+   "pe_forward": 12.703021,
+   "eps": 38.03,
+   "crec_ventas_pct": -0.5,
+   "margen_pct": 17.0,
+   "filtro": "ventas cayendo -0%",
+   "objetivo_prom": 376.5,
+   "upside_pct": -4.7
+  },
+  {
+   "ticker": "PTC",
+   "tipo": "A",
+   "regla": "Lider en retroceso",
+   "precio": 195.07,
+   "ret_6m_pct": 33.7,
+   "dist_max52_pct": -0.2,
+   "vol_vs_prom": 0.5,
+   "dia_pct": 0.2,
+   "nombre": "PTC Inc.",
+   "sector": "Technology",
+   "cap_bn": 21.2,
+   "pe": 21.844345,
+   "pe_forward": 19.61518,
+   "eps": 8.93,
+   "crec_ventas_pct": -24.7,
+   "margen_pct": 37.8,
+   "filtro": "ventas cayendo -25%",
+   "objetivo_prom": 201.0,
+   "upside_pct": 3.0
   },
   {
    "ticker": "VTRS",
@@ -166,10 +102,10 @@
    "objetivo_prom": 135.5,
    "upside_pct": 12.0,
    "ticker": "NEM",
-   "score": 81.3,
+   "score": 81.7,
    "precio": 120.91,
    "ret_12m_pct": 47.9,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "Humana Inc.",
@@ -184,10 +120,10 @@
    "objetivo_prom": 465.1,
    "upside_pct": 7.2,
    "ticker": "HUM",
-   "score": 72.2,
+   "score": 72.7,
    "precio": 433.74,
    "ret_12m_pct": 75.0,
-   "veces_en_top": 2
+   "veces_en_top": 3
   },
   {
    "nombre": "DaVita Inc.",
@@ -202,10 +138,10 @@
    "objetivo_prom": 222.3,
    "upside_pct": 16.2,
    "ticker": "DVA",
-   "score": 69.5,
+   "score": 70.1,
    "precio": 191.35,
    "ret_12m_pct": 57.5,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "Franklin Templeton, Inc.",
@@ -220,10 +156,10 @@
    "objetivo_prom": 35.5,
    "upside_pct": 5.1,
    "ticker": "BEN",
-   "score": 69.5,
+   "score": 69.9,
    "precio": 33.73,
    "ret_12m_pct": 52.3,
-   "veces_en_top": 1
+   "veces_en_top": 2
   },
   {
    "nombre": "Merck & Company, Inc.",
@@ -238,10 +174,10 @@
    "objetivo_prom": 161.5,
    "upside_pct": 10.1,
    "ticker": "MRK",
-   "score": 66.1,
+   "score": 66.7,
    "precio": 146.73,
    "ret_12m_pct": 76.1,
-   "veces_en_top": 5
+   "veces_en_top": 6
   },
   {
    "nombre": "Target Corporation",
@@ -256,10 +192,10 @@
    "objetivo_prom": 163.4,
    "upside_pct": 3.1,
    "ticker": "TGT",
-   "score": 63.5,
+   "score": 64.1,
    "precio": 158.41,
    "ret_12m_pct": 84.9,
-   "veces_en_top": 6
+   "veces_en_top": 7
   },
   {
    "nombre": "Centene Corporation",
@@ -274,10 +210,10 @@
    "objetivo_prom": 75.4,
    "upside_pct": 8.1,
    "ticker": "CNC",
-   "score": 63.0,
+   "score": 63.6,
    "precio": 69.74,
    "ret_12m_pct": 88.0,
-   "veces_en_top": 6
+   "veces_en_top": 7
   },
   {
    "nombre": "Revvity, Inc.",
@@ -292,10 +228,10 @@
    "objetivo_prom": 154.0,
    "upside_pct": -0.7,
    "ticker": "RVTY",
-   "score": 59.5,
+   "score": 60.0,
    "precio": 155.11,
    "ret_12m_pct": 73.7,
-   "veces_en_top": 3
+   "veces_en_top": 4
   }
  ],
  "mercado": null,
