@@ -1,29 +1,7 @@
 {
  "fecha": "2026-11-09",
- "generado_utc": "2026-11-10 03:35",
- "candidatas": [
-  {
-   "ticker": "BEN",
-   "tipo": "B",
-   "regla": "Ruptura 52 semanas con volumen",
-   "precio": 35.87,
-   "ret_6m_pct": 15.5,
-   "dist_max52_pct": 0.0,
-   "vol_vs_prom": 1.6,
-   "dia_pct": 6.3,
-   "nombre": "Franklin Templeton, Inc.",
-   "sector": "Financial Services",
-   "cap_bn": 18.4,
-   "pe": 17.16268,
-   "pe_forward": 9.912509,
-   "eps": 2.09,
-   "crec_ventas_pct": 3.9,
-   "margen_pct": 11.4,
-   "filtro": "OK",
-   "objetivo_prom": 36.8,
-   "upside_pct": 2.7
-  }
- ],
+ "generado_utc": "2026-11-10 04:09",
+ "candidatas": [],
  "descartadas_por_calidad": [],
  "ranking_permanente": [
   {
@@ -42,7 +20,7 @@
    "score": 96.0,
    "precio": 394.66,
    "ret_12m_pct": 74.9,
-   "veces_en_top": 5
+   "veces_en_top": 6
   },
   {
    "nombre": "Texas Instruments Incorporated",
@@ -60,14 +38,14 @@
    "score": 88.0,
    "precio": 295.73,
    "ret_12m_pct": 88.2,
-   "veces_en_top": 7
+   "veces_en_top": 8
   },
   {
    "nombre": "Humana Inc.",
    "sector": "Healthcare",
    "cap_bn": 50.8,
    "pe": 41.289757,
-   "pe_forward": 24.626991,
+   "pe_forward": 24.37336,
    "eps": 10.25,
    "crec_ventas_pct": 26.1,
    "margen_pct": 0.8,
@@ -75,10 +53,10 @@
    "objetivo_prom": 469.3,
    "upside_pct": 10.9,
    "ticker": "HUM",
-   "score": 74.4,
+   "score": 74.5,
    "precio": 423.22,
    "ret_12m_pct": 70.1,
-   "veces_en_top": 4
+   "veces_en_top": 5
   },
   {
    "nombre": "Merck & Company, Inc.",
@@ -96,14 +74,14 @@
    "score": 65.3,
    "precio": 148.76,
    "ret_12m_pct": 77.5,
-   "veces_en_top": 7
+   "veces_en_top": 8
   },
   {
    "nombre": "Franklin Templeton, Inc.",
    "sector": "Financial Services",
    "cap_bn": 18.4,
    "pe": 17.16268,
-   "pe_forward": 9.912509,
+   "pe_forward": 9.913413,
    "eps": 2.09,
    "crec_ventas_pct": 3.9,
    "margen_pct": 11.4,
@@ -114,15 +92,15 @@
    "score": 64.7,
    "precio": 35.87,
    "ret_12m_pct": 69.3,
-   "veces_en_top": 3
+   "veces_en_top": 4
   },
   {
    "nombre": "Centene Corporation",
    "sector": "Healthcare",
    "cap_bn": 33.9,
-   "pe": 23.553265,
+   "pe": 23.965036,
    "pe_forward": 12.360507,
-   "eps": 2.91,
+   "eps": 2.86,
    "crec_ventas_pct": 0.2,
    "margen_pct": 0.8,
    "filtro": "OK",
@@ -132,7 +110,7 @@
    "score": 64.3,
    "precio": 68.54,
    "ret_12m_pct": 82.5,
-   "veces_en_top": 8
+   "veces_en_top": 9
   },
   {
    "nombre": "Revvity, Inc.",
@@ -150,7 +128,7 @@
    "score": 62.8,
    "precio": 160.72,
    "ret_12m_pct": 77.5,
-   "veces_en_top": 5
+   "veces_en_top": 6
   },
   {
    "nombre": "Target Corporation",
@@ -168,61 +146,10 @@
    "score": 61.2,
    "precio": 165.9,
    "ret_12m_pct": 89.2,
-   "veces_en_top": 8
+   "veces_en_top": 9
   }
  ],
- "mercado": "🟢 Rebote del mercado confirmado: el S&P cayo -4.4% desde su maximo de 5 dias y ya recupero +2.7% desde el minimo. Historicamente, entrar tras el giro confirmado tiene mejor relacion riesgo/retorno que comprar la caida a ciegas.",
- "top10_momentum": [
-  {
-   "ticker": "MRNA",
-   "ret_6m_pct": 405.0,
-   "precio": 269.0
-  },
-  {
-   "ticker": "OKTA",
-   "ret_6m_pct": 124.6,
-   "precio": 177.57
-  },
-  {
-   "ticker": "CRL",
-   "ret_6m_pct": 109.5,
-   "precio": 353.34
-  },
-  {
-   "ticker": "VEEV",
-   "ret_6m_pct": 92.2,
-   "precio": 306.4
-  },
-  {
-   "ticker": "SNOW",
-   "ret_6m_pct": 91.6,
-   "precio": 291.14
-  },
-  {
-   "ticker": "BBY",
-   "ret_6m_pct": 90.3,
-   "precio": 106.28
-  },
-  {
-   "ticker": "CDW",
-   "ret_6m_pct": 67.5,
-   "precio": 164.61
-  },
-  {
-   "ticker": "CRWD",
-   "ret_6m_pct": 67.4,
-   "precio": 228.58
-  },
-  {
-   "ticker": "MTD",
-   "ret_6m_pct": 64.3,
-   "precio": 1762.28
-  },
-  {
-   "ticker": "RVTY",
-   "ret_6m_pct": 62.0,
-   "precio": 160.72
-  }
- ],
+ "mercado": null,
+ "top10_momentum": [],
  "spx_cierre": 7549.94
 }
